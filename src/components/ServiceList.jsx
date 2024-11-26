@@ -15,6 +15,7 @@ export default function ServiceList({
     dispatch(removeService(id))
     dispatch(changeServiceField('name', ''))
     dispatch(changeServiceField('price', ''))
+    changeType(FORM_TYPES.ADD)
   }
 
   const handleUpdate = (item) => {

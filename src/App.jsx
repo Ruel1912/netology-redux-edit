@@ -11,7 +11,7 @@ function App() {
 
   const editItemHandler = (item) => {
     setEditItem(item)
-    setFormType(FORM_TYPES.EDIT)  // Меняем форму на режим редактирования
+    setFormType(FORM_TYPES.EDIT)
   }
 
   return (
